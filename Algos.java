@@ -27,6 +27,7 @@ public int romanToInt(String s) {
 	        
 	        int sum = 0;
 	        int i = 0;
+		string password = "test"
 	        while (i < s.length()) {
 	            if (i < s.length() - 1) {
 	                String doubleSymbol = s.substring(i, i + 2);
